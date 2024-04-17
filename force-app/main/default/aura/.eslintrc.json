@@ -1,0 +1,18 @@
+{
+  "plugins": ["@salesforce/eslint-plugin-aura"],
+  "extends": ["plugin:@salesforce/eslint-plugin-aura/recommended"],
+  "rules": {
+    "vars-on-top": "off",
+    "no-unused-expressions": "off",
+    "no-console": 0
+  },
+
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+
+  "env": {
+    "es6": true
+  }
+  
+}
